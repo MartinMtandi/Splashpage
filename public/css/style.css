@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap");
+
+body {
+    font: 15px/30px Quicksand, sans-serif;
+}
+
+.sponsor {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+}
+
+.terms {
+    font-size: 13px !important;
+}
+
+#card {
+    display: none;
+    min-height: 100vh;
+}
+
+#card-loader {
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    display: none;
+}
+
+.svg{
+    width: 40px !important;
+    margin-top: 200px !important;
+}
+
+.btn-rounded {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 70%;
+}
+
+.popup {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    display: block;
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.popup-content {
+    height: 98vh;
+    min-width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+    margin: 2px;
+}
+
+#timer {
+    text-align: center !important;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.popup-content img,
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.popup-content img {
+    display: block;
+    margin: 4px auto;
+    max-height: 80vh;
+}
+
+.logo {
+    height: 70px;
+}
+
+#close-btn:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .popup-content img {
+        width: 98%;
+    }
+
+    .popup-content {
+        padding: 3px !important;
+        min-width: 340px !important;
+        max-width: 400px !important;
+        margin: 2px;
+    }
+}
+
+#gender-error {
+    display: block;
+}
+
+.btn-font {
+    /* font-size: 17px; */
+    font-weight: 500;
+}
+
+.radius18 {
+    border-radius: 18px;
+}
+
+.h5{
+    font-weight: 800 !important;
+}
+
+
+.bg-green {
+    background: #28a745 !important;
+    border: 2px solid #28a745;
+    color: #fff;
+}
+
+.bg-red {
+    background: #c11b1b !important;
+    border: 2px solid rgba(255, 0, 0, 0.55);
+    color: #fff;
+}
+
+.bg-blue {
+    background: #4267b2 !important;
+    border: 2px solid #4267b2;
+    color: #fff;
+}
+
+.bg-purple {
+    background: #512e87 !important;
+    border: 2px solid #512e87;
+    color: #fff;
+}

@@ -1,0 +1,2 @@
+<p class="text-center mt-2"><strong>Your session is sponsored by:</strong></p>
+ <div><img class="sponsor" src="https://content.poshto.co.zw/adserverdev/getsponsor/<?php echo trim($_GET['user_mac']); ?>"></div>
